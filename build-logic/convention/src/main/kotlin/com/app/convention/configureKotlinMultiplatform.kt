@@ -26,6 +26,7 @@ internal fun Project.configureKotlinMultiplatform(
     iosSimulatorArm64()
     macosX64()
     macosArm64()
+    jvm()
 
     applyDefaultHierarchyTemplate()
 
