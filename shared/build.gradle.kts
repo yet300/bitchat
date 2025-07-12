@@ -27,6 +27,7 @@ kotlin {
             isStatic = true
 
             export(projects.core.domain)
+            export(projects.core.data)
         }
     }
     
@@ -35,6 +36,7 @@ kotlin {
     sourceSets {
         commonMain.dependencies {
             api(projects.core.domain)
+            api(projects.core.data)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
